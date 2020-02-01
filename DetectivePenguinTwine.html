@@ -19,11 +19,20 @@ Detective Penguin awoke with a start at the loud BANG! outside his igloo door. =
 [[That didn&#39;t sound good, better go investigate.-&gt; GoToDoor]]
 [[Uh...probably nothing, go back to sleep.-&gt;BacktoSleep]]</tw-passagedata><tw-passagedata pid="2" name=" GoToDoor" tags="" position="537,328" size="100,100">Detective Penguin carefully slid from his block of ice and made his way quietly to the door. 
 =menu= 
-[[Carefully open the door and peek outside.-&gt;GentleApproach]]
-[[Get the jump on the killer.-&gt;LoudApproach]]</tw-passagedata><tw-passagedata pid="3" name="BacktoSleep" tags="" position="289,334" size="100,100">After a minute (or two, how long has he been asleep?), he awoke again, to several aggressively loud BANGs! outside his door. 
+Carefully open the door and [[peek outside.-&gt;GentleApproach]]
+Get the jump on the [[killer.-&gt;LoudApproach]]</tw-passagedata><tw-passagedata pid="3" name="BacktoSleep" tags="" position="289,334" size="100,100">After a minute (or two, how long has he been asleep?), he awoke again, to several aggressively loud BANGs! outside his door. 
 =DP= Ah motherflipper, that was definitely a gunshot. 
 =menu= 
-[[Time to go investigate.-&gt; GoToDoor]]</tw-passagedata><tw-passagedata pid="4" name="GentleApproach" tags="" position="410,483" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name="LoudApproach" tags="" position="642,467" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+[[Time to go investigate.-&gt; GoToDoor]]</tw-passagedata><tw-passagedata pid="4" name="GentleApproach" tags="" position="359,462" size="100,100">Cautiously sliding the ice block door open just a crack, Detective Penguin saw a hint of a flipper and...
+=DP= Oh chum, is that blood?
+=menu= 
+Check it out, someone might [[be hurt.-&gt;NotArmed]]
+Grab the ice pick near your bed, you&#39;re not about to be [[unarmed.-&gt;Armed]]</tw-passagedata><tw-passagedata pid="5" name="LoudApproach" tags="" position="672,464" size="100,100">Detective Penguin kicked open the ice block door and waddled outside to see...
+=DP= LORENZO!
+Detective Penguin&#39;s best friend Lorenzo was face down in the snow, covered in blood. In the distance, Detective Penguin saw a hurried figure getting away. 
+=menu= 
+[[Give chase!]]
+Check on Lorenzo, maybe he&#39;s [[not dead?-&gt;CheckOnL]]</tw-passagedata><tw-passagedata pid="6" name="NotArmed" tags="" position="256,601" size="100,100">=armed = false= </tw-passagedata><tw-passagedata pid="7" name="Armed" tags="" position="446,602" size="100,100">=armed = true= </tw-passagedata><tw-passagedata pid="8" name="Give chase!" tags="" position="601,598" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="9" name="CheckOnL" tags="" position="775,599" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
