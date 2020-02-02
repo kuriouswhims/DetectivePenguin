@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/DPScene2.unity
-    guid: 8b3a230dff6d2e446a1e6668728547bc
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/FishingHole.unity
     guid: c4ec988aa3025a64386c9e47c1faed16
