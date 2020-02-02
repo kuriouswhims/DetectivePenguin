@@ -422,7 +422,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 503822406}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 503822419}
   variables:
   - {fileID: 503822418}
   description: 
@@ -720,7 +721,7 @@ MonoBehaviour:
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   setMenuDialog: {fileID: 0}
   hideThisOption:
     booleanRef: {fileID: 0}
